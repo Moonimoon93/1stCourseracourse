@@ -1,0 +1,42 @@
+body {
+	font-size: 16px;
+	color: #000;
+	background-color: lightgray;
+}
+/* Header */
+#header-nav {
+	background-color: dimgray;
+	border-radius: 0;
+	border: 1px solid black;
+	height: 75px;
+}
+#header-nav .container {
+	margin-left: 15px;
+}
+.navbar-brand {
+	padding-top: 25px;
+}
+.navbar-brand h1 {
+	color: #000;
+	font-weight: bold;
+	text-shadow: 1px 1px 1px #000;
+	font-size: 2em;
+	margin-top: 0;
+	margin-bottom: 0;
+	line-height: .5;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+	text-decoration: none;
+}
+/* End Header */
+#description {
+	background-color: dimgray;
+	position: relative;
+}
+#description p {
+	margin-bottom: 0;
+	font-size: 1.2em;
+	font-weight: bold;
+}
+/* Chicken Page */
+
