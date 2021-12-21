@@ -41,6 +41,11 @@ body {
 	font-size: 1.2em;
 	font-weight: bold;
 }
+#nav-list a{
+	color: black;
+	text-align: center;
+	font-weight: bold;
+}
 
 /* desktop and tablet */
 @media (min-width: 768px) {
