@@ -8,7 +8,6 @@ body {
 	background-color: dimgray;
 	border-radius: 0;
 	border: 1px solid black;
-	height: 75px;
 }
 #header-nav .container {
 	margin-left: 15px;
@@ -28,15 +27,29 @@ body {
 .navbar-brand a:hover, .navbar-brand a:focus {
 	text-decoration: none;
 }
+
 /* End Header */
+#our-menu-title {
+	font-size: 1.8em;
+	font-weight: bold;
+}
 #description {
 	background-color: dimgray;
-	position: relative;
 }
 #description p {
 	margin-bottom: 0;
 	font-size: 1.2em;
 	font-weight: bold;
 }
-/* Chicken Page */
+
+/* desktop and tablet */
+@media (min-width: 768px) {
+	#header-nav {
+		height: 75px;
+	}
+}
+/* xs devices */
+@media (max-width: 479px) {
+
+}
 
